@@ -1,0 +1,15 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'normalize.scss';
+@import './helpers/animation.scss';
+@import './helpers/variables';
+@import 'base.scss';
+
+@import './components/container.scss';
+ 
+@import './sections/header';
+@import './sections/sections';
+@import './sections/footer';
+@import './sections/contact.scss';

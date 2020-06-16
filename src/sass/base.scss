@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.visually-hidden { 
+  position: absolute;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  margin: -1px;
+}
+
+.header {
+  background-image: -webkit-gradient( linear, left bottom, left top, from(rgba(252,227,138,0.9)), to(rgba(243,129,129,0.9))), url(../images/Layout.jpg);
+  background-image: -o-linear-gradient( bottom, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../images/Layout.jpg);
+  background-image: linear-gradient( 0deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../images/Layout.jpg);
+  background-size: cover;
+  margin-bottom: 46px;
+}
+
+@media (min-resolution: 192dpi) {
+  background-image: -webkit-gradient( linear, left bottom, left top, from(rgba(252,227,138,0.9)), to(rgba(243,129,129,0.9))), url(../images/Layout@2x.jpg);
+  background-image: -o-linear-gradient( bottom, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../images/Layout@2x.jpg);
+  background-image: linear-gradient( 0deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../images/Layout@2x.jpg);
+}

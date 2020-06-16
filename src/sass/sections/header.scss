@@ -1,0 +1,122 @@
+.navigation {
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 160px;
+}
+
+.navigation__menu {
+    width: 490px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none;
+}
+
+.navigation__menu_link{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  padding-bottom: 10px;
+
+  -webkit-transition-property: all;
+
+  -o-transition-property: all;
+
+  transition-property: all;
+  -webkit-transition-duration: .2s;
+       -o-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+
+          &:hover {
+            border-bottom-width: 3px;
+            border-bottom-color: #fce38a;
+            border-bottom-style: solid;
+            color: #fce38a;
+         }
+         
+
+  }
+
+.navigation__menu_svg {
+  width: 18px;
+  height: 15px;
+  fill:  rgb(255, 255, 255);
+
+  &:hover {
+    fill: #fce38a;
+  }
+}
+
+.navigation__logo {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.title {
+   width: 820px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center; 
+   text-align: center;
+}
+
+.title__undertext {
+  font-size: 72px;
+  font-family: "Kaushan Script", cursive;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  margin-bottom: 44px;
+}
+
+.title__maintext {
+  margin: 0 auto;
+  font-size: 150px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.933;
+  margin-bottom: 124px;
+}
+
+.title__btn {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  width: 164px;
+  height: 44px;
+  margin-bottom: 228px;
+}

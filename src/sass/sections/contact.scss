@@ -1,0 +1,23 @@
+.contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.contact-form__btn {
+    background-color: rgb(149, 225, 211);
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+}
+
+.contact-form__input {
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #000000;
+}

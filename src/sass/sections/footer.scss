@@ -1,0 +1,29 @@
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__container {
+    width: 1200px;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    padding-top: 14px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer__text a{
+    color: #f38181;
+    text-decoration: none;
+}
